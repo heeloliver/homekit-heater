@@ -1,0 +1,22 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "oliver",
+		"port": 1,
+		"pin": "123-45-678"
+	},
+
+	"accessories": [
+		{
+			"accessory": "HeaterController",
+			"name": "Room Heater",
+			"on": "./",
+			"off": "./",
+			"state": "./",
+			"status_update_delay": 15
+		}
+
+	],
+
+	"platforms": []
+}
