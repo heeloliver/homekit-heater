@@ -1,22 +1,19 @@
 {
-	"bridge": {
-		"name": "Homebridge",
-		"username": "oliver",
-		"port": 1,
-		"pin": "123-45-678"
-	},
-
-	"accessories": [
-		{
-			"accessory": "HeaterController",
-			"name": "Room Heater",
-			"on": "./",
-			"off": "./",
-			"state": "./",
-			"status_update_delay": 15
-		}
-
-	],
-
-	"platforms": []
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CB:22:3D:E2:CE:31",
+        "port": 51826,
+        "pin": "033-44-254"
+    },
+    "accessories": [
+	 {
+    		"accessory": "HeaterController",
+		"name": "Room Heater",
+		"on": "./",
+		"off": "./",
+		"state": "./",
+		"status_update_delay": 15
+	}
+    ],
+    "platforms": []
 }
