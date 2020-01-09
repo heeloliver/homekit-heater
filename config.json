@@ -6,7 +6,12 @@
         "pin": "033-44-254"
     },
     "accessories": [
-	 
+	    {
+		"accessory": "GPIO",
+		"name": "Heater",
+		"pin": 7,
+		"duration": 4000
+	    } 
     ],
     "platforms": []
 }
