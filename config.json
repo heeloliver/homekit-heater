@@ -10,7 +10,7 @@
 		"accessory": "GPIO",
 		"name": "Heater",
 		"pin": 7,
-		"duration": 4000
+		"duration": 400000
 	    } 
     ],
     "platforms": []
