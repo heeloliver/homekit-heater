@@ -8,3 +8,7 @@ A heater in my room can be turned on or off by twisting a knob on the side. The 
 I used [this](https://github.com/nfarina/homebridge/wiki/Install-Homebridge-on-Raspbian) guide to setup homebridge on my pi.
 
 I used [this](https://www.npmjs.com/package/homebridge-gpio-cmd) npm package to enable gpio pin editing.
+
+# location of homebridge files
+/var/lib/homebridge/
+
