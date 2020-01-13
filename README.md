@@ -12,3 +12,8 @@ I used [this](https://www.npmjs.com/package/homebridge-gpio-cmd) npm package to 
 # location of homebridge files
 /var/lib/homebridge/
 
+# common commands
+restart - systemctl restart homebridge
+stop - systemctl stop homebridge
+start - systemctl start homebridge
+view logs - journalctl -f -n 100 -u homebridge
