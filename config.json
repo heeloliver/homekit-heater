@@ -8,10 +8,16 @@
     "accessories": [
 	    {
 		"accessory": "GPIO",
-		"name": "Heater",
+		"name": "Heater on",
 		"pin": 7,
 		"duration": 400000
-	    } 
+	    },
+	    {
+		"accessory": "GPIO",
+		"name": "Heater off",
+		"pin": 8,
+		"duration": 400000
+            } 
     ],
     "platforms": []
 }
