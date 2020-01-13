@@ -9,7 +9,7 @@
 	    {
 		"accessory": "GPIO",
 		"name": "Heater",
-		"pin": 4,
+		"pin": 7,
 		"duration": 400000
 	    } 
     ],
