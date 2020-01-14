@@ -15,7 +15,7 @@
 	    {
 		"accessory": "GPIO",
 		"name": "Heater off",
-		"pin": 8,
+		"pin": 0,
 		"duration": 400000
             } 
     ],
