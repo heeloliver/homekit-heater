@@ -20,3 +20,5 @@ stop - systemctl stop homebridge
 start - systemctl start homebridge
 
 view logs - journalctl -f -n 100 -u homebridge
+
+sudo reboot - restart raspberry pi
