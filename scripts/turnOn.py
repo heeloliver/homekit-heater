@@ -4,9 +4,11 @@ GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(11,GPIO.OUT)
 p = GPIO.PWM(11, 50)
-p.start(0)
+p.start(7.5)
 
-p.ChangeDutyCycle(3)
+p.ChangeDutyCycle(2.5)
+sleep(1)
+p.ChangeDutyCycle(12.5)
 sleep(1)
 
 p.stop()
