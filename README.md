@@ -11,6 +11,8 @@ I used [this](https://github.com/nfarina/homebridge/wiki/Install-Homebridge-on-R
 
 I used [this](https://www.npmjs.com/package/homebridge-gpio-cmd) npm package to enable gpio pin editing.
 
+I used [this'(https://www.npmjs.com/package/homebridge-script2) npm package to run python scripts via homebridge
+
 # location of homebridge files
 /var/lib/homebridge/
 
