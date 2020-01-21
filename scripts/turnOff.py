@@ -8,6 +8,8 @@ p.start(7.5)
 
 p.ChangeDutyCycle(12.5)
 sleep(1)
+p.ChangeDutyCycle(2.5)
+sleep(1)
 
 p.stop()
 GPIO.cleanup()
