@@ -17,7 +17,14 @@
 		"name": "Heater off",
 		"pin": 21,
 		"duration": 400000
-            } 
+            },
+	    {
+		"accessory": "Script2",
+		"name": "Servo toggle",
+		"on": "/scripts/turnOn.sh 1"
+		"off": "/scripts/turnOff.sh 1"
+		"on_value" : "true"
+	    } 
     ],
     "platforms": []
 }
